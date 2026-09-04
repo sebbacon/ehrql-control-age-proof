@@ -1,0 +1,16 @@
+*~
+model.log
+*/input.csv
+__pycache__
+.python-version
+/output/*
+!/output/ctc_data_ptnl_controls_indexappended.csv.gz
+metadata/*
+venv/
+.DS_Store
+.Rhistory
+.Rproj.user/
+.devcontainer/ehrql-main/
+.venv/
+/outputs/
+/work/

@@ -1,0 +1,10 @@
+version: '5.0'
+
+actions:
+  generate_dataset:
+    run: ehrql:v1 generate-dataset analysis/dataset_definition.py --output output/dataset.csv.gz
+    # In the real project, uncomment this and use the action that creates CONTROLS.
+    # needs: [append_control_index_date]
+    outputs:
+      highly_sensitive:
+        dataset: output/dataset.csv.gz
